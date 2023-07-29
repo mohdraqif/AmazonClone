@@ -1,0 +1,67 @@
+.cart-page{
+    width: 100%;
+    height: auto;
+    min-height: 60vh;
+    background-color: #eaeded;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-page h1{
+    width: 90%;
+    margin: 20px auto;
+    color: #0f1111;
+    font-family: 'Amazon Ember', Arial, sans-serif;
+}
+
+.cart_items{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: #ffffff;
+    font-size: 24px;
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.products_list{
+    margin: 30px;
+}
+
+.items{
+    width: 25%;
+    margin: 0 50px;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #0f1111;
+    font-family: 'Amazon Ember', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.items > div{
+    margin: 20px 0;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons > a{
+    margin: 0 5px;
+}
+
+.continue_shopping{
+    padding: 5px 8px;
+    color: #0f1111;
+    background-color: #f1c34d;
+    border: 1px solid #aeb0b5;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: 'Amazon Ember', Arial, sans-serif;
+}

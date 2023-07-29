@@ -1,0 +1,33 @@
+.categorybar{
+    height: auto;
+    background-color: #232f3e;
+    font-size: 14px;
+    display: flex;
+    padding: 12px;
+}
+
+.categories{
+    width: 100%;
+    display: flex;
+}
+
+.categories ul {
+    flex-wrap: wrap;
+    display: flex;
+    margin: auto;
+    list-style: none;
+    width: 100%;
+}
+
+.categories ul li{
+    margin: 2px 0;
+}
+
+.categories ul a{
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0 1px;
+    padding: 0 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,34 @@
+.product{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product_details{
+    margin: 0 20px;
+    text-align: left;
+    font-family: 'Amazon Ember', Arial, sans-serif;
+}
+
+.product_details > div{
+    margin: 5px auto;
+    display: flex;
+}
+
+.rating > i{
+    margin: 0 1px;
+    font-size: 18px;
+}
+
+.remove_item{
+    width: 150px;
+    color: #111111;
+    background-color: #f1c34d;
+    border: 1px solid #aeb0b5;
+    font-size: 13px;
+    line-height: 20px;
+    border-radius: 3px;
+    margin: auto 0;
+    cursor: pointer;
+    font-family: 'Amazon Ember', Arial, sans-serif;
+}

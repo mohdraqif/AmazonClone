@@ -1,0 +1,167 @@
+.checkout-page{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 60vh;
+    margin: 10px;
+}
+
+.payment-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0;
+    margin: 10px;
+    width: 100%;
+}
+
+.payment-info{
+    padding: 0 20px;
+    margin: 0 30px;
+}
+
+.order-summary{
+    width: 250px;
+    padding: 20px;
+    margin: 0 30px;
+    border: 1px solid#D5D9D9 ;
+    color: #0f1111;
+    border-radius: 8px;
+    font-family: 'Amazon Ember', Arial, sans-serif;
+}
+
+.place_order_button{
+    width: 100%;
+    margin: 10px auto;
+    padding: 7px 0;
+    color: #0f1111;
+    background-color: #ffd814;
+    border: 1px solid #aeb0b5;
+    font-size: 15px;
+    border: 0;
+    border-radius: 13px;
+    z-index: 20;
+    cursor: pointer;
+    font-family: 'Amazon Ember', Arial, sans-serif;
+}
+
+.order-summary h3{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.order-summary p {
+    margin: 7px auto;
+}
+
+.order-summary span{
+    float: right;
+}
+
+.total{
+    color: #b12704;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.payment-info{
+    padding: 20px;
+    align-items: center;
+}
+
+.payment-info p {
+    font-size: 12px;
+}
+
+.method-select{
+    margin: 15px auto;
+    padding: 10px 15px;
+    border: 1px solid#D5D9D9 ;
+    color: #0f1111;
+    border-radius: 8px;
+}
+
+.method-select > div{
+    margin: 5px auto;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.method-select label{
+    margin: 0 5px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 300ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+  
+.popup {
+  margin: 70px auto;
+  padding: 20px 40px;
+  background: #fff;
+  border-radius: 5px;
+  width: 35%;
+  position: relative;
+}
+  
+.popup h2 {
+  margin: 20px auto;   
+  color: #0f1111;
+  font-family: 'Amazon Ember', Arial, sans-serif;
+}
+  
+.popup .close {
+  transition: all 100ms;
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #0f1111;
+}
+
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+  
+@media screen and (max-width: 700px){
+  .popup{
+    width: 70%;
+  }
+}
+
+.github_link{
+  margin: 20px auto 0;
+  font-size: 14px;
+  font-family: 'Amazon Ember', Arial, sans-serif;
+}
+
+.github_link a{
+  text-decoration: none;
+  color: #b12704;
+}
+
+.continue{
+    margin: 30px 0;
+    padding: 5px 8px;
+    color: #0f1111;
+    background-color: #f1c34d;
+    border: 1px solid #aeb0b5;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: 'Amazon Ember', Arial, sans-serif;
+}

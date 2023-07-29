@@ -1,0 +1,33 @@
+.subtotal{
+    width: 400px;
+    margin: 30px;
+    height: 120px;
+    padding: 30px 0;
+    border-radius: 4px;
+    background-color: #eaeded;
+    border: 1px solid #aeb0b5;
+}
+
+.gift_option{
+    margin: 15px;
+    font-size: 16px;
+}
+
+.gift_option input{
+    margin: 5px;
+}
+
+.proceed_to_buy{
+    padding: 5px 15px;
+    color: #0f1111;
+    background-color: #f1c34d;
+    border: 1px solid #aeb0b5;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: 'Amazon Ember', Arial, sans-serif;
+}
+
+.total {
+    margin: 0 5px;
+}

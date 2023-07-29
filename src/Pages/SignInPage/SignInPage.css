@@ -1,0 +1,93 @@
+.signin-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    min-height: 60vh;
+}
+
+.signin-page > div{
+    margin: 10px auto;
+}
+
+.sign-in{
+    background-color: white;
+    width: 300px;
+    border-radius: 3px;
+    border: 1px solid #dddddd;
+    padding: 24px;
+}
+
+.sign-in h1{
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 400;
+    padding-bottom: 4px;
+    margin-bottom: 15px;
+}
+
+form label{
+    font-size: 13px;
+    font-weight: 700;
+    color: #111111;
+    padding: 2px;
+}
+
+form input{
+    width: 100%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #111111;
+    padding: 7px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #c3c3c3;
+}
+
+input:focus{
+    border: 1px solid #e77600;
+    outline: 1px solid #e77600;
+}
+
+form button{
+    width: 100%;
+    color: #111111;
+    background-color: #f1c34d;
+    border: 1px solid #aeb0b5;
+    font-size: 13px;
+    line-height: 25px;
+    border-radius: 3px;
+    margin: 5px 0;
+    cursor: pointer;
+    font-family: 'Amazon Ember', Arial, sans-serif;
+}
+
+.sign-in p{
+    padding: 5px 0;
+    margin: 10px 0;
+    font-size: 12px;
+    color: #111111;
+}
+
+.sign-up{
+    width: 350px;
+    height: auto;
+    text-align: center;
+}
+
+.sign-up p{
+    color: #767676;
+    font-size: 12px;
+}
+
+.sign-up button{
+    width: 100%;
+    margin: 10px auto;
+    color: #111111;
+    border: 1px solid #aeb0b5;
+    font-size: 13px;
+    line-height: 25px;
+    border-radius: 3px;
+    font-family: 'Amazon Ember', Arial, sans-serif;
+    cursor: pointer;
+}

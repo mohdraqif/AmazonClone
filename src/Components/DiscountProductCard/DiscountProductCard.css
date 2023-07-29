@@ -1,0 +1,25 @@
+.discount_product_card{
+    background-color: #ffffff;
+    width: 330px;
+    height: 400px;
+    margin: 10px;
+    padding: 30px 10px;
+    text-align: center;
+}
+
+.description{
+    font-size: 21px;
+    color: #0F1111;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.product_gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.discount_product_card img{
+    width: 100%;
+    object-fit: contain;
+}

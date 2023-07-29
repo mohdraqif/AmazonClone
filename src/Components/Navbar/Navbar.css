@@ -1,0 +1,144 @@
+.header{
+    background-color: #131921;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 5px 0;
+    font-family: 'Amazon Ember', Arial, sans-serif;
+}
+
+.header_left{
+    display: flex;
+    margin: auto;
+    color: #ffffff;
+}
+
+.amazon_logo{
+    margin: auto 23px;
+    margin-top: 17px;
+}
+
+.location{
+    margin: 0 9px;
+    align-self: center;
+    display: flex;
+}
+
+.location_mark{
+    margin: 10px 3px 0 5px;
+}
+
+.select_address{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+}
+
+.address{
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 700;
+}
+
+.searchbar{
+    color:#ffffff;
+    margin: auto 19px;
+    display: flex;
+    flex: 1;
+    min-width: 200px;
+}
+
+#category{
+    border: none;
+    width: 52px;
+    height: 40px;
+    border-top-left-radius: 8%;
+    border-bottom-left-radius: 8%;
+    padding: 0 7px;
+    cursor: pointer;
+}
+
+option{
+    text-align: left;
+}
+
+.search_input{
+    height: 38px;
+    border: none;
+    width: 100%;
+    font-size: 14.5px;
+    padding-left: 10px;
+    
+}
+
+.search_input:focus{
+    outline: none;
+    border: none;
+}
+
+.search_button{
+    border-top-right-radius: 8%;
+    border-bottom-right-radius: 8%;
+    background-color: #febd69;
+    width: 45px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.search_icon{
+    font-size: 20px;
+    align-self: center;
+    color: #0F1111;
+}
+
+.account-links{
+    display: flex;
+    color: #ffffff;
+    margin: auto;
+    padding: 5px 20px;
+}
+
+.account-links > div{
+    margin: 0 6px;
+    padding: 0 10px;
+}
+
+.signin, .orders{
+    display: flex;
+    flex-direction: column;
+}
+
+.signin a, .orders a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.hello_text, .returns{
+    font-size: 12px;
+    line-height: 14px;
+    height: 14px;
+    font-weight: 400;
+}
+
+.account_signin, .orders, .cart{
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 700;
+}
+
+.cart a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.cart_items_count{
+    color: #febd69;
+}
